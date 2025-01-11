@@ -1,0 +1,16 @@
+.avatarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.avatar {
+  overflow: hidden;
+  width: rem(180px);
+  height: rem(180px);
+  border-radius: rem(90px);
+  margin: 0 auto;
+  box-shadow: var(--mantine-shadow-md);
+  border: 2px solid var(--mantine-primary-color-9)
+}

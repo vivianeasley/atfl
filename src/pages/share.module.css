@@ -1,0 +1,15 @@
+.profilePageWrapper {
+  margin: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 14px;
+  margin: 16px 0;
+}
+
+.buttonWrapper {
+  margin-bottom: 8px
+}
