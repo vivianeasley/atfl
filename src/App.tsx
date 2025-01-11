@@ -14,21 +14,21 @@ import { SharePage } from './pages/Share.page';
 export default function App() {
   return (
     <MantineProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/atfl/">
         <Routes>
-          <Route path="/atfl" element={<Layout />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<MainPage />} />
           </Route>
-          <Route path="/atfl/capture" element={<Layout />}>
+          <Route path="/capture" element={<Layout />}>
             <Route index element={<CapturePage />} />
           </Route>
-          <Route path="/atfl/profile" element={<Layout />}>
+          <Route path="/profile" element={<Layout />}>
             <Route index element={<ProfilePage />} />
           </Route>
-          <Route path="/atfl/results" element={<Layout />}>
+          <Route path="/results" element={<Layout />}>
             <Route index element={<ResultsPage />} />
           </Route>
-          <Route path="/atfl/share" element={<Layout />}>
+          <Route path="/share" element={<Layout />}>
             <Route index element={<SharePage />} />
           </Route>
         </Routes>
