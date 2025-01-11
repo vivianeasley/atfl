@@ -16,19 +16,19 @@ export default function App() {
     <MantineProvider theme={theme}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/atfl" element={<Layout />}>
             <Route index element={<MainPage />} />
           </Route>
-          <Route path="/capture" element={<Layout />}>
+          <Route path="/atfl/capture" element={<Layout />}>
             <Route index element={<CapturePage />} />
           </Route>
-          <Route path="/profile" element={<Layout />}>
+          <Route path="/atfl/profile" element={<Layout />}>
             <Route index element={<ProfilePage />} />
           </Route>
-          <Route path="/results" element={<Layout />}>
+          <Route path="/atfl/results" element={<Layout />}>
             <Route index element={<ResultsPage />} />
           </Route>
-          <Route path="/share" element={<Layout />}>
+          <Route path="/atfl/share" element={<Layout />}>
             <Route index element={<SharePage />} />
           </Route>
         </Routes>
